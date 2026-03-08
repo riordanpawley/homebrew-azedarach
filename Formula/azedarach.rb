@@ -1,27 +1,27 @@
 class Azedarach < Formula
   desc "TUI Kanban board for orchestrating parallel Claude Code sessions"
   homepage "https://github.com/riordanpawley/azedarach"
-  version "0.3.6"
+  version "0.3.7"
   license "MIT"
 
   conflicts_with "azure-cli", because: "both install an executable named az"
 
   on_macos do
     on_arm do
-      url "https://github.com/riordanpawley/azedarach/releases/download/v0.3.6/az-darwin-arm64"
-      sha256 "8e6b9e878fd9ade391484ae9064f1a9487668dee414abc8cea6f6e21c74fea59"
+      url "https://github.com/riordanpawley/azedarach/releases/download/v0.3.7/az-darwin-arm64"
+      sha256 "5d637a651a843ac685dc158b21fd53a2e946d303ed491b32dd2d71e078805a9e"
     end
 
     on_intel do
-      url "https://github.com/riordanpawley/azedarach/releases/download/v0.3.6/az-darwin-x64"
-      sha256 "6cbd740a02b9e6a450c505281404aa274f0f5516202aadf980891e391f6efa53"
+      url "https://github.com/riordanpawley/azedarach/releases/download/v0.3.7/az-darwin-x64"
+      sha256 "070be21cb67f1feafe2bad117bf5dda8fa7d892ab8ec26122580a4847e58b7f9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/riordanpawley/azedarach/releases/download/v0.3.6/az-linux-x64"
-      sha256 "99cee8311b7f001832164a624e1d345f295c356caeb74e96cf3e554ef75f5b00"
+      url "https://github.com/riordanpawley/azedarach/releases/download/v0.3.7/az-linux-x64"
+      sha256 "e87d4dbbcfc26d48183f129901f5ab58f88d56599709afb618e53ad859a5e25e"
     end
   end
 
