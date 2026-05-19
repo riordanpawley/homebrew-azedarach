@@ -1,38 +1,38 @@
 class Azedarach < Formula
   desc "TUI Kanban board for orchestrating parallel AI sessions"
   homepage "https://github.com/riordanpawley/azedarach"
-  version "1.5.1"
+  version "1.6.0"
   license "MIT"
 
   conflicts_with "azure-cli", because: "both install an executable named az"
 
   on_macos do
     on_arm do
-      url "https://github.com/riordanpawley/azedarach/releases/download/v1.5.1/az-darwin-arm64"
-      sha256 "45bb4e552a403d9348d05c877ffc5e639e8a39fc5a16f24b38c30d65e4c5e996"
+      url "https://github.com/riordanpawley/azedarach/releases/download/v1.6.0/az-darwin-arm64"
+      sha256 "3207c104edeb38cc96e59f5d58458c8218bd53b5a888e7375ef2757dc0f9c7d7"
       resource "azd-bin" do
-        url "https://github.com/riordanpawley/azedarach/releases/download/v1.5.1/azd-darwin-arm64"
-        sha256 "7bc336c0e047a57943f977bd6116ca640f674ad1bfc2638f4461520a83958713"
+        url "https://github.com/riordanpawley/azedarach/releases/download/v1.6.0/azd-darwin-arm64"
+        sha256 "6dd0bc80f787a4777bbb843e45b65722ec036dea82d300a35c808df47436cad1"
       end
     end
 
     on_intel do
-      url "https://github.com/riordanpawley/azedarach/releases/download/v1.5.1/az-darwin-x64"
-      sha256 "878585310a0804ce667b9f34bab0fcfb11f0f899249ddcc36d05a788076595f9"
+      url "https://github.com/riordanpawley/azedarach/releases/download/v1.6.0/az-darwin-x64"
+      sha256 "eb499a6c1b6ce8b300beb91ab52aef47ace608ce93b3b035cd5151360155c694"
       resource "azd-bin" do
-        url "https://github.com/riordanpawley/azedarach/releases/download/v1.5.1/azd-darwin-x64"
-        sha256 "c8bed9db91369edbf40bad26c9318e5bc51a365413549fc81147c79ea418da47"
+        url "https://github.com/riordanpawley/azedarach/releases/download/v1.6.0/azd-darwin-x64"
+        sha256 "ca6ddfafbc6b5abd597071a05299e5acd964955903b580742378307edf07a26f"
       end
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/riordanpawley/azedarach/releases/download/v1.5.1/az-linux-x64"
-      sha256 "f1a4b5cd17524cdaad6427e999533f956994813a28e6985f26ce3e71d98b2211"
+      url "https://github.com/riordanpawley/azedarach/releases/download/v1.6.0/az-linux-x64"
+      sha256 "fb56bf4c2c41b11e4fa2b21a2b881e7763ce388683506edba2a931d976c915c0"
       resource "azd-bin" do
-        url "https://github.com/riordanpawley/azedarach/releases/download/v1.5.1/azd-linux-x64"
-        sha256 "719cbdfc6210e3bb6fc959edd49c2545afd9bf7a3be924f0f4e076cd3e3b429f"
+        url "https://github.com/riordanpawley/azedarach/releases/download/v1.6.0/azd-linux-x64"
+        sha256 "2f8883ca22cecfe47467685089132c3c739104aa9b38726bb581efdedd4c753b"
       end
     end
   end
